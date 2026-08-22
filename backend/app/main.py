@@ -101,28 +101,6 @@ def test_supabase():
             "status": "error",
             "message": str(e)
         }
-@app.get("/api/test-supabase")
-def test_supabase():
-    try:
-        response = (
-            supabase
-            .table("jobs")
-            .select("job_id")
-            .limit(1)
-            .execute()
-        )
-
-        return {
-            "status": "connected",
-            "data": response.data
-        }
-
-    except Exception as e:
-        return {
-            "status": "error",
-            "message": str(e)
-        }
-
 # ============================================================
 # AUTH TEST
 # ============================================================
