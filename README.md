@@ -116,29 +116,45 @@ CareerAI addresses this through an end-to-end workflow:
 
 
 
-✨ Key Features
+# ✨ Key Features
 
-CareerAI combines job discovery, resume intelligence, personalized matching, and AI-powered career guidance into a single workflow.
+CareerAI combines job discovery, resume intelligence, personalized job matching, career intelligence, and AI-powered career assistance into a single workflow.
 
-🔎 1. Intelligent Job Discovery
+---
 
-Users can search and explore job opportunities using multiple structured signals.
+## 🔎 1. Intelligent Job Discovery
 
-Supported Search & Filters
+CareerAI provides a structured job-discovery experience where users can search, filter, and explore opportunities from multiple job sources.
 
-- 🔍 Keyword search across job titles, companies, skills, and roles
-- 📍 Location-based filtering
-- 🧩 Domain filtering
-- 💼 Employment-type filtering
-- 📊 Minimum and maximum experience filtering
-- 📄 Paginated job results
-- 🗂️ Job-source filtering
-- 🏢 Company and role information
-- 📅 Posting date information
+### Search & Filtering
 
-Supported Job Sources
+Users can filter jobs using:
 
-CareerAI supports jobs aggregated from multiple sources, including:
+- 🔍 Keyword search
+- 📍 Location
+- 🧩 Domain
+- 💼 Employment type
+- 📊 Minimum experience
+- 📊 Maximum experience
+- 🗂️ Job source
+- 📄 Pagination
+
+Search can consider information such as:
+
+- Job title
+- Company name
+- Skills
+- Roles
+- Location
+- Domain
+- Experience requirements
+- Employment type
+
+### Supported Job Sources
+
+CareerAI normalizes job-source information so users can discover opportunities from multiple platforms through a single interface.
+
+Current source categories include:
 
 - LinkedIn
 - Indeed
@@ -151,44 +167,48 @@ CareerAI supports jobs aggregated from multiple sources, including:
 - Shine
 - Cutshort
 
-The application normalizes source information so that users can filter opportunities without navigating separate job portals.
+The source filter is designed to treat related source labels consistently so users can select a platform without having to understand internal source variations.
 
 <details>
-<summary><strong>View Job Discovery Screenshot</strong></summary>
+<summary><strong>📸 View Job Discovery Screenshot</strong></summary>
+
+<br>
 
 ![CareerAI Job Discovery](docs/screenshots/01-job-discovery.png)
 
 </details>
 
+---
 
+## 📄 2. AI-Powered Resume Intelligence
 
-📄 2. AI-Powered Resume Intelligence
+CareerAI allows users to upload a resume and convert unstructured resume content into structured career information.
 
-CareerAI allows users to upload their resume and automatically extract structured career information.
-
-Supported Resume Formats
+### Supported Resume Formats
 
 - PDF
 - DOCX
 - TXT
 
-Extracted Information
+### Extracted Information
 
-The resume analysis workflow identifies:
+The resume processing workflow can identify and organize:
 
 - Candidate name
 - Contact information
-- Professional experience
+- Professional summary
 - Skills
+- Work experience
 - Education
 - Projects
-- Professional summary
 - Recommended career roles
 
-Instead of treating the resume as a static document, CareerAI converts it into a reusable structured candidate profile.
+Instead of treating a resume as a static document, CareerAI transforms it into a structured candidate profile that can be reused throughout the platform.
 
 <details>
-<summary><strong>View Resume Upload Screenshot</strong></summary>
+<summary><strong>📸 View Resume Upload Screenshot</strong></summary>
+
+<br>
 
 ![Resume Upload](docs/screenshots/03-resume-upload.png)
 
@@ -196,11 +216,11 @@ Instead of treating the resume as a static document, CareerAI converts it into a
 
 ---
 
-🧠 3. Structured Career Profile
+## 🧠 3. Structured Career Profile
 
-After resume processing, CareerAI creates a structured career profile that can be reused across the platform.
+After resume processing, CareerAI generates a structured career profile that can be used for personalized career analysis and job recommendations.
 
-The profile may include:
+The profile can contain:
 
 - Candidate information
 - Career level
@@ -208,38 +228,43 @@ The profile may include:
 - Experience
 - Education
 - Projects
-- Recommended career roles
 - Target career direction
+- Recommended career roles
 
-This profile becomes the foundation for personalized job matching and career assistance.
+This profile acts as the central candidate context for downstream career intelligence and matching workflows.
 
 <details>
-<summary><strong>View Candidate Profile</strong></summary>
+<summary><strong>📸 View Candidate Profile</strong></summary>
+
+<br>
 
 ![Candidate Profile](docs/screenshots/04-resume-profile.png)
 
 </details>
 
 <details>
-<summary><strong>View Projects & Career Information</strong></summary>
+<summary><strong>📸 View Career Profile & Projects</strong></summary>
+
+<br>
 
 ![Career Profile & Projects](docs/screenshots/05-career-profile-projects.png)
 
 </details>
 
+---
 
-🎯 4. Explainable Job Matching
+## 🎯 4. Explainable Job Matching
 
 CareerAI does not simply return a list of jobs.
 
-It compares the candidate's career profile against job requirements and provides explainable matching signals.
+The platform compares candidate information with job requirements and presents matching signals that help users understand **why an opportunity may be relevant**.
 
- Matching Signals
+### Matching Signals
 
-The recommendation workflow considers factors such as:
+The recommendation workflow considers signals such as:
 
 - Candidate skills
-- Required job skills
+- Job skills
 - Target role
 - Job domain
 - Job roles
@@ -247,11 +272,11 @@ The recommendation workflow considers factors such as:
 - Career-family relevance
 - Skill overlap
 
-Recommendation Output
+### Recommendation Information
 
-Each recommendation can provide:
+Recommendations can expose:
 
-- 📊 Match percentage
+- 📊 Match score
 - ✅ Matched skills
 - ⚠️ Skill gaps
 - 💼 Experience assessment
@@ -260,20 +285,24 @@ Each recommendation can provide:
 - 🔗 Job details
 - 📝 Application availability
 
-This makes the recommendation process more transparent and actionable.
+This makes the recommendation workflow more explainable and actionable instead of presenting an unexplained list of jobs.
 
 <details>
-<summary><strong>View Personalized Job Matching</strong></summary>
+<summary><strong>📸 View Personalized Job Matching</strong></summary>
+
+<br>
 
 ![Recommended Jobs](docs/screenshots/06-recommended-jobs.png)
 
 </details>
 
-🤖 5. AI Career Assistant
+---
 
-CareerAI includes a conversational AI assistant designed to provide career guidance using the candidate's career context.
+## 🤖 5. AI Career Assistant
 
-The assistant can help users with:
+CareerAI includes a conversational AI assistant powered by **Google Gemini**.
+
+The assistant is designed around career-related context and can help users with:
 
 - Career direction
 - Skill development
@@ -284,8 +313,9 @@ The assistant can help users with:
 - Career planning
 - Practical next steps
 
-Example Questions
+### Example Questions
 
+```text
 What skills should I improve next?
 
 Am I ready for a Data Scientist role?
