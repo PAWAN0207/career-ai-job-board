@@ -155,6 +155,9 @@ export default function Home() {
   const [employmentType, setEmploymentType] =
     useState("");
 
+  const [source, setSource] =
+    useState("");
+
   const [minExperience, setMinExperience] =
     useState("");
 
@@ -381,6 +384,13 @@ export default function Home() {
         );
       }
 
+      if (source) {
+        params.set(
+          "source",
+          source
+        );
+      }
+
       if (minExperience) {
         params.set(
           "min_experience",
@@ -582,6 +592,7 @@ export default function Home() {
     location,
     domain,
     employmentType,
+    source,
     minExperience,
     maxExperience,
   ]);
@@ -598,6 +609,8 @@ export default function Home() {
     setDomain("");
 
     setEmploymentType("");
+
+    setSource("");
 
     setMinExperience("");
 
@@ -1380,6 +1393,72 @@ export default function Home() {
 
                   <option value="Contract">
                     Contract
+                  </option>
+
+                </select>
+
+              </div>
+
+              {/* JOB SOURCE */}
+
+              <div className="mb-6">
+
+                <label className="mb-2 block text-sm font-medium text-slate-700">
+                  Job Source
+                </label>
+
+                <select
+                  value={source}
+                  onChange={(e) => {
+
+                    setSource(
+                      e.target.value
+                    );
+
+                    setPage(1);
+
+                  }}
+                  className="w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm outline-none focus:border-blue-500"
+                >
+
+                  <option value="">
+                    All sources
+                  </option>
+
+                  <option value="LinkedIn">
+                    LinkedIn
+                  </option>
+
+                  <option value="Indeed">
+                    Indeed
+                  </option>
+
+                  <option value="Internshala">
+                    Internshala
+                  </option>
+
+                  <option value="Naukri">
+                    Naukri
+                  </option>
+
+                  <option value="Glassdoor">
+                    Glassdoor
+                  </option>
+
+                  <option value="Foundit.in">
+                    Foundit.in
+                  </option>
+
+                  <option value="Wellfound">
+                    Wellfound
+                  </option>
+
+                  <option value="Shine">
+                    Shine
+                  </option>
+
+                  <option value="Cutshort">
+                    Cutshort
                   </option>
 
                 </select>
