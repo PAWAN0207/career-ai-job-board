@@ -628,44 +628,6 @@ The AI layer complements the application's structured filtering, profile, and re
 
 ---
 
-# 📸 Product Walkthrough
-
-## Job Discovery
-
-Search and explore opportunities using structured job information and filters.
-
-![Job Discovery](docs/screenshots/01-job-discovery.png)
-
-## Resume Upload
-
-Upload a supported resume and initiate profile analysis.
-
-![Resume Upload](docs/screenshots/03-resume-upload.png)
-
-## Candidate Profile
-
-View structured candidate information extracted from the uploaded resume.
-
-![Candidate Profile](docs/screenshots/04-resume-profile.png)
-
-## Career Profile & Projects
-
-Review projects and career information generated from the candidate profile.
-
-![Career Profile & Projects](docs/screenshots/05-career-profile-projects.png)
-
-## Personalized Job Recommendations
-
-Explore opportunities based on the candidate's career profile and matching signals.
-
-![Recommended Jobs](docs/screenshots/06-recommended-jobs.png)
-
-## AI Career Assistant
-
-Interact with the AI assistant for career guidance and next-step recommendations.
-
-![AI Career Assistant](docs/screenshots/02-ai-career-assistant.png)
-
 ---
 
 # 📁 Project Structure
