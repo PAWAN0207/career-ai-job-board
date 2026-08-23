@@ -1,24 +1,19 @@
 # 🚀 CareerAI — AI-Powered Career Intelligence & Job Matching Platform
 
 <p align="center">
-  <strong>Turn a resume into a personalized job-search strategy.</strong>
-</p>
 
-<p align="center">
-  Discover relevant opportunities, understand career fit, identify skill gaps,
-  and get AI-powered career guidance from one platform.
-</p>
+<a href="https://career-ai-job-board-chi.vercel.app/">
+<img src="https://img.shields.io/badge/🌐%20VISIT%20CAREERAI-2563EB?style=for-the-badge" alt="Visit CareerAI"/>
+</a>
 
-<p align="center">
-  <a href="https://career-ai-job-board-chi.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20CareerAI-2563EB?style=for-the-badge" alt="Live Demo">
-  </a>
-  <a href="https://github.com/PAWAN0207/career-ai-job-board">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository">
-  </a>
-  <a href="YOUR_GOOGLE_DRIVE_VIDEO_LINK">
-    <img src="https://img.shields.io/badge/Explanation%20Video-Watch-DC2626?style=for-the-badge" alt="Explanation Video">
-  </a>
+<a href="https://github.com/PAWAN0207/career-ai-job-board">
+<img src="https://img.shields.io/badge/💻%20VIEW%20SOURCE%20CODE-181717?style=for-the-badge" alt="View Source Code"/>
+</a>
+
+<a href="YOUR_GOOGLE_DRIVE_VIDEO_LINK">
+<img src="https://img.shields.io/badge/🎥%20WATCH%20PROJECT%20VIDEO-DC2626?style=for-the-badge" alt="Watch Project Video"/>
+</a>
+
 </p>
 
 ---
