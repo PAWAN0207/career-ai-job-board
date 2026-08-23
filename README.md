@@ -114,17 +114,17 @@ CareerAI addresses this through an end-to-end workflow:
                     ▼
           AI Career Assistant
 
----
 
-# ✨ Key Features
+
+✨ Key Features
 
 CareerAI combines job discovery, resume intelligence, personalized matching, and AI-powered career guidance into a single workflow.
 
-## 🔎 1. Intelligent Job Discovery
+🔎 1. Intelligent Job Discovery
 
 Users can search and explore job opportunities using multiple structured signals.
 
-### Supported Search & Filters
+Supported Search & Filters
 
 - 🔍 Keyword search across job titles, companies, skills, and roles
 - 📍 Location-based filtering
@@ -136,7 +136,7 @@ Users can search and explore job opportunities using multiple structured signals
 - 🏢 Company and role information
 - 📅 Posting date information
 
-### Supported Job Sources
+Supported Job Sources
 
 CareerAI supports jobs aggregated from multiple sources, including:
 
@@ -160,19 +160,19 @@ The application normalizes source information so that users can filter opportuni
 
 </details>
 
----
 
-## 📄 2. AI-Powered Resume Intelligence
+
+📄 2. AI-Powered Resume Intelligence
 
 CareerAI allows users to upload their resume and automatically extract structured career information.
 
-### Supported Resume Formats
+Supported Resume Formats
 
 - PDF
 - DOCX
 - TXT
 
-### Extracted Information
+Extracted Information
 
 The resume analysis workflow identifies:
 
@@ -196,7 +196,7 @@ Instead of treating the resume as a static document, CareerAI converts it into a
 
 ---
 
-## 🧠 3. Structured Career Profile
+🧠 3. Structured Career Profile
 
 After resume processing, CareerAI creates a structured career profile that can be reused across the platform.
 
@@ -227,15 +227,14 @@ This profile becomes the foundation for personalized job matching and career ass
 
 </details>
 
----
 
-## 🎯 4. Explainable Job Matching
+🎯 4. Explainable Job Matching
 
 CareerAI does not simply return a list of jobs.
 
 It compares the candidate's career profile against job requirements and provides explainable matching signals.
 
-### Matching Signals
+ Matching Signals
 
 The recommendation workflow considers factors such as:
 
@@ -248,7 +247,7 @@ The recommendation workflow considers factors such as:
 - Career-family relevance
 - Skill overlap
 
-### Recommendation Output
+Recommendation Output
 
 Each recommendation can provide:
 
@@ -270,9 +269,7 @@ This makes the recommendation process more transparent and actionable.
 
 </details>
 
----
-
-## 🤖 5. AI Career Assistant
+🤖 5. AI Career Assistant
 
 CareerAI includes a conversational AI assistant designed to provide career guidance using the candidate's career context.
 
@@ -287,9 +284,8 @@ The assistant can help users with:
 - Career planning
 - Practical next steps
 
-### Example Questions
+Example Questions
 
-```text
 What skills should I improve next?
 
 Am I ready for a Data Scientist role?
