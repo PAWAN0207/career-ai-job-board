@@ -27,7 +27,7 @@
 | 🎥 **Explanation Video** | [Watch Project Walkthrough](https://drive.google.com/file/d/1h6uhdMjTJr1B4_7SNQhz_5jW-gmMFBfh/view) |
 | 👤 **LinkedIn** | [Connect with Pawan Prasad](https://www.linkedin.com/in/pawan-prasad-analyst/) |
 
-> **Video access:** Set the Google Drive permission to **Anyone with the link → Viewer** before submission.
+
 
 ---
 
