@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/💻%20VIEW%20SOURCE%20CODE-181717?style=for-the-badge" alt="View Source Code"/>
 </a>
 
-<a href="YOUR_GOOGLE_DRIVE_VIDEO_LINK">
+<a href="https://drive.google.com/file/d/1h6uhdMjTJr1B4_7SNQhz_5jW-gmMFBfh/view">
 <img src="https://img.shields.io/badge/🎥%20WATCH%20PROJECT%20VIDEO-DC2626?style=for-the-badge" alt="Watch Project Video"/>
 </a>
 
@@ -24,7 +24,7 @@
 |---|---|
 | 🌐 **Live Application** | [Open CareerAI](https://career-ai-job-board-chi.vercel.app/) |
 | 💻 **GitHub Repository** | [View Source Code](https://github.com/PAWAN0207/career-ai-job-board) |
-| 🎥 **Explanation Video** | [Watch Project Walkthrough](YOUR_GOOGLE_DRIVE_VIDEO_LINK) |
+| 🎥 **Explanation Video** | [Watch Project Walkthrough](https://drive.google.com/file/d/1h6uhdMjTJr1B4_7SNQhz_5jW-gmMFBfh/view) |
 | 👤 **LinkedIn** | [Connect with Pawan Prasad](https://www.linkedin.com/in/pawan-prasad-analyst/) |
 
 > **Video access:** Set the Google Drive permission to **Anyone with the link → Viewer** before submission.
